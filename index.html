@@ -1,159 +1,102 @@
-<!DOCTYPE HTML>
-<html>
-  
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Lenguaje de Marcas</title>
-  <meta charset="UTF-8">
-  <meta name="description" content="Un lenguaje de marcado o lenguaje de marcas es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentació">
+  <meta charset="utf-8">
+  <title>The Jargon File Pablo Soriano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="thejargonfile.css">
 </head>
+
 <body>
- <h1>Lenguaje de marcas</h1> <center><img src="code-markup.jpg" alt="Lenguaje de Marcas" width="250" height="275"></center>
-  <p>Un lenguaje de marcado o lenguaje de marcas es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentación.  Los Lenguajes de Marcas permiten hacer explícita la estructura de un documento, su contenido semántico o cualquier otra información lingüística o extralingüística que se quiera hacer patente. </p>
+<h1>THE JARGON FILE</h1>
+
+  <h2> AFAIK</h2>
+
+      <p>Abreviatura de As Far As I Know ["por lo que yo sé"]. AFAIK sugiere que el autor sabe que su conocimiento es limitado. Existe la variante AFAICT [As Far As I Can Tell, "Por lo         que yo puedo decir"] que sugiere que el autor cree tener conocimientos suficientes sobre el       tema, pero que no se pueden emitir opiniones concluyentes.</p>
+
+  <h2>BSOD</h2>
+
+      <p>Abreviatura de Blue Screen of Death ["pantalla azul de la muerte"]. Proviene de una expresión anterior ["pantalla negra de la muerte"], pero mucho más popular. Se refiere a la pantalla azul que muestra Windows cuando deja de funcionar, por culpa de una aplicación o del propio sistema operativo. En esa pantalla suelen aparecer códigos hexadecimales, con fines seguramente decorativos. Como prueba de la popularidad del término, sirva el siguiente poema del concurso de Haikus Salon:</p>
+
+          <blockquote>
+          <cite><p>Windows NT se ha colgado</p>
+
+          <p>Soy la pantalla azul de la muerte</p>
+
+          <p>Nadie oirá tus gritos</p></cite>
+          </blockquote>
+
+  <h2>FAQ</h2>
+
+      <p>Abreviatura de Frequently Asked Question ["pregunta planteada a menudo"]. Se refiere a las preguntas que se plantean una y otra vez en listas de correo, foros, etc, pero también se refiere a los documentos que recopilan ese tipo de preguntas. Hace años, este tipo de documentos se enviaban periódicamente en los grupos de noticias (newsgroups) para evitar la repetición innecesaria de las mismas preguntas. Posteriormente, este tipo de documentos (organizados mediante preguntas y respuestas) se incorporaron también a los sitios web para ofrecer información a los visitantes.</p>
+
+  <h2>FUD</h2>
+
+      <p>Abreviatura de Fear, Uncertainty and Doubt ["miedo, incertidumbre y duda"]. Expresión creada por Gene Amdhal tras abandonar IBM para fundar su propia empresa: "FUD es el miedo, la incertidumbre y la duda que los vendedores de IBM inculcan en la mente de los clientes que estén considerando la compra de productos de otras empresas". Los productos de IBM serían seguros y fiables, mientras que los de otras empresas supondrían una compra muy arriesgada. En los años 90, este término se asoció a menudo con Microsoft y, en general, con las técnicas de propaganda comercial basadas en la desinformación.</p>
+
+  <h2>GIYF</h2>
+
+       <p>Abreviatura de Google Is Your Friend ["Google es tu amigo"]. Se emplea para sugerir a quien ha planteado una pregunta que la respuesta puede encontrarse usando un buscador, en vez de pedir ayuda a un humano.</p>
+
+  <h2>IANAL</h2>
+
+      <p>Abreviatura de I Am Not A Lawyer ["no soy abogado"]. Se utiliza antes de dar un consejo legal, para evitar responsabilidades.</p>
+
+  <h2>IMHO</h2>
+      <p>Abreviatura de In My Humble Opinion ["en mi humilde opinión]. Se utiliza antes de dar una opinión. Existen variantes como IMNSHO [In My Not-So-Humble Opinion, "en mi no tan humilde opinión"] o IMAO [In My Arrogant Opinion, "en mi arrogante opinión"].</p>
+
+  <h2>Estilos de sangrado</h2>
+
+      <p>Reglas para hacer el código más legible, mediante su sangrado, espaciado y colocación de las llaves ({}). Los cuatro estilos de sangrado más antiguos del lenguaje de programación C, heredados en otros lenguajes, son:</p>
+
+  <h3>Estilo K&R</h3>
+
+      <p>Es el estilo utilizado en el libro sobre programación en C escrito por Kernighan y Ritchie y utilizado también en el kernel de Linux (obra de Ritchie y Thompson).</p>
+
+          <pre>if (&lt;cond&gt;) {
+         &lt;body&gt;
+}</pre>
+
+  <h3>Estilo Allman</h3>
+
+      <p>Es el estilo utilizado por Eric Allman, creador de muchas utilidades BSD.</p>
+
+          <pre>if (&lt;cond&gt;)
+{
+        &lt;body&gt;
+}</pre>
+
+
+  <h3>Estilo Whitesmiths</h3>
+
+      <p>Es el estilo utilizado en los ejemplos de uno de los primeros compiladores comerciales de C, Whitesmiths C.</p>
+
+          <pre>if (&lt;cond&gt;)
+        {
+        &lt;body&gt;
+        }</pre>
+
+
+  <h3>Estilo GNU</h3>
+
+      <p>Es el estilo utilizado en el editor EMACS y en el código creado por la Free Software Foundation.</p>
+
+          <pre>if (&lt;cond&gt;)
+  {
+    &lt;body&gt;
+  }</pre>
+
+  <h2>RTFM</h2>
+
+      <p>Abreviatura de Read The Fucking Manual ["lea el p*** manual"]. Usado por expertos para expresar con rudeza que no deben ser molestados con preguntas triviales. Usado también por novatos para indicar que han intentado encontrar la respuesta por sí mismos antes de preguntar a otros.</p>
+
+      <p class="p1">Definiciones extraidas de The Jargon File version 4.4.7, por Eric S. Raymond<br>
+  Última modificación de esta página: 14 de octubre de 2016</p>
+
+      <p class="mclibre">
+    Esta página forma parte del curso <a href="https://www.mclibre.org/consultar/htmlcss/"><cite>Páginas web HTML y hojas de estilo CSS</cite></a> por <cite>Bartolomé Sintes Marco</cite></p>
+
+  <!--esta parte la he tenido que mirar porque no tenía ni idea de cómo se llamaba esto, me ha sorprendido que solo ese pequeño cuadro tuviera su propia hoja de css-->
+
 </body>
-  
-  <h1>Sistemas de gestión de información</h1>
-  <p>Un Sistema de gestión de información son un tipo de sistemas de informació que recopilan y procesan información de diferentes fuentes. Esta información sirve para crear informes que proporcionan una visión completa de toda la información necesaria para tomar decisiones que van desde pequeños detalles diarios hasta una estrategia de nivel superior. Los sistemas actuales de gestión de la información se basan en gran medida en la tecnología para recopilar y presentar datos. </p>
-
-<h1>ERP (sistema de gestión empresarial) </h1>
-  <p>Conjunto de sistemas de información que permite la integración de ciertas operaciones de una empresa, especialmente las que tienen que ver con la producción, la logística, el inventario, los envíos y la contabilidad.
-
-<p>Funciona como un sistema integrado, un único programa con acceso a una base de datos centralizada.</p>
-
-El propósito de un software ERP es apoyar a los clientes de la empresa, dar tiempos rápidos de respuesta a sus problemas, así como un eficiente manejo de información que permita la toma de decisiones y minimizar los costes.</p>
-<h1>Caracteristicas de los siguientes lenguajes de marcas:  </h1>
-  <h2>HTML  </h2>
-<p> La sigla corresponde a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto.</p>
-
-<p>Se encarga de desarrollar una descripción sobre los contenidos que aparecen como textos y sobre su estructura, complementando dicho texto con diversos objetos (como fotografías, animaciones, etc).</p> 
-
-
-      <p>Puede ser creado y editado con cualquier editor básico de textos.</p>
-      Es multiplataforma, puede ser visualizado por cualquier navegador de cualquier sistema operativo.
-      
-      <p>No diferencia entre mayúsculas y minúsculas.</p>
-      
-      Utiliza etiquetas o marcas, breves instrucciones 	de comienzo y final, que determinan la	forma en la que debe aparecer en su navegador el texto así como las imágenes y demás elementos en la pantalla del ordenador.
-      
-    <p>  Cada elemento de un documento HTML consta de una etiqueta de comienzo, un bloque de texto y una etiqueta de fin. Ej:< y >. </p>
-      
-      Lenguaje estático utilizado para la creación de páginas web.
-      
-    <p>  Los documentos HTML son documentos de hipertexto que aparecen enlazando a otros documentos.</p>
-      
-      Es un estándar reconocido por todo el mundo y cuyas normas define un organismo sin animo de lucro llamado World Wide Web Consortium, más conocido como W3C.
-
-<p>Cabe destacar que el HTML permite ciertos códigos que se conocen como scripts, los cuales brindan instrucciones específicas a los navegadores que se encargan de procesar el lenguaje. Entre los scripts que pueden agregarse, los más conocidos y utilizados son JavaScript y PHP. </p>
-
-<h2> CSS </h2>
-<p>Un lenguaje de hojas de estilo que permite a desarrolladores y usuarios asociar formas de presentación a documentos estructurados, como páginas HTML y aplicaciones XML </p>
-<h4>Complementariedad con documentos estructurados</h4>
-<dd>Complementan a otros documentos proporcionando información de estilo con poco o ningún impacto sobre el sistema de marcas.</dd>
-<h4>Independencia del vendedor, la plataforma y el dispositivo</h4>
-<h4>Mantenibilidad</h4>
-<dd>Los responsables de sitios en la Web pueden simplificar el mantenimiento y conservar un estilo y un efecto consistente a todo lo largo del sitio. </dd>
-<h4>Simplicidad</h4>
-<dd>Lenguaje de estilo simple, humanamente legible y posible de	escribir. <br>Generalmente sólo hay un modo de conseguir un efecto determinado </dd>
-<h4>Rendimiento de la red</h4>
-<dd>Proporciona una compacta codificación para presentar los contenidos.<br>Generalmente disminuyen el tamaño del contenido </dd>
-<h4>Flexibilidad</h4>
-<dd>Pueden ser aplicadas de varias maneras.<br>	Característica clave: su capacidad de formar una cascada de estilos	con los distintos grupos de información </dd>
-<h4>Riqueza</h4>
-<dd>Aumentan la riqueza de la Web como medio de expresión con sus abundantes efectos de procesamiento <br>
-		Alta Funcionalidad en programas de edición y de presentaciones gráficas.</dd>
-<h4>Combinación con lenguajes alternativos</h4>
-<h4>Accesibilidad</h4> <br><br>
-
-<h2> XHTML</h2>
-Los documentos XHTML son conformes a XML. Como tales, son fácilmente visualizados, editados y validados con herramientas XML estándar.<br><br>
-Los documentos XHTML pueden escribirse para que funcionen igual o mejor que lo hacían antes tanto en las aplicaciones de usuario conformes a HTML 4.0 como en los nuevas aplicaciones conformes a XHTML 1.0.<br><br>
-Los documentos XHTML pueden usar aplicaciones (por ejemplo scripts y applets) que se basen ya sea en el Modelo del Objeto Documento de HTML o XML[DOM].<br><br>
-A medida que la familia XHTML evolucione, los documentos conformes a XHTML 1.0 estarán más preparados para interactuar dentro de y entre distintos entornos XHTML.<br><br><br> 
-<h2> XML</h2>
-XML son las siglas de Extensible Markup Language, que podemos traducir como Lenguaje de Marcas Extensibles, aunque realmente es un meta-lenguaje.<br><br>
-Se compone de etiquetas que nos aportan datos e información que queremos procesar. Estas etiquetas pueden estar de forma individual o anidadas. 
-<p>XML es un estándar para escribir datos estructurados en un fichero de texto.  </p>
-Tanto XML como HTML usan marcas y atributos, más su diferencia radica en que en XML sólo se usan las marcas para delimitar fragmentos de datos, dejando la interpretación de éstos a la aplicación que los lee. 
-<p>Puede ser usado en cualquier plataforma destaca por su portabilidad, depuración, independencia de plataforma, e incluso en su capacidad de edición, pero su sintaxis es más estricta que la de HTML </p>
-XML consta de una familia de tecnologías
-<p>Los ficheros resultantes, son casi siempre mayores que sus equivalentes binarios </p>
-XML es nuevo empezó a diseñarse en 1996, y se publicó la recomendación en Febrero/98
-<p> XML no requiere licencia</p><br>
-<h2>
-  MARKDOWN
-</h2>
-<p> Markdown es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano </p>
-Se distribuye bajo licencia BSD como plugin en diferentes sistemas de gestión de contenidos (CMS) 
-<p> Convierte el texto marcado en documentos XHTML utilizando html2text</p>
-Pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML 
-<p> No hay un estándar definido para Markdown, aparte de la implementación original de John Gruber, que algunos consideran obsoleto. Esto está ocasionado por la fragmentación, porque las diferentes personas escriben sus propias variantes de Markdown para corregir detalles o añadir características no incluidas. </p><br>
-<h2>XPATH</h2>
-<p>Xpath (XML Path Language) es un lenguaje que permite recuperar información de un documento XML. Permite construir expresiones que recorren y procesan el documento XML. </p>
-Utiliza un tipo de notación similar a las rutas de los ficheros, pero haciendo referencia a los nodos de un XML. 
-<p>
-  fue creado para su uso con el estándar XSTL (es el mayor componente en XSTL).</p>
-<p>Define una sintaxis para establecer partes en un documento XML, permitiendo navegar a través de sus elementos y atributos y editar algunos de éstos.</p><br>
-
-<h2>XQUERY</h2>
-  
-<p>
-  Es un lenguaje de consulta que permite extraer información de bases de datos o documentos XML </p>
-XQuery es a XML lo mismo que SQL a las bases de datos relacionales. 
-<p>Se basa en el lenguaje Xpath para el acceso a los nodos XML, pudiendo utilizar todos sus operadores y funciones. 
-  </p>
-Se trata de una recomendación del W3C 
-<p>El lenguaje XQuery es muy amplio y complejo consultas XQuery se componen de cinco cláusulas, que debido a sus iniciales se las conoce como FLWOR<br> (For, Let, Where, Order by, Return. Además se le añade la cláusula Group By) </p>
-
-<br><br><br><br><br><br><br>
-<h3>
-  <u>Bibliografía</u>
-</h3>
-<a target=”_blank” href="https://es.wikipedia.org/wiki/Lenguaje_de_marcado#:~:text=Un%20lenguaje%20de%20marcado%20o,del%20texto%20o%20su%20presentaci%C3%B3n.&text=Los%20lenguajes%20de%20marcado%20suelen%20confundirse%20con%20lenguajes%20de%20programaci%C3%B3n">Lenguaje de Marcado, definición Wikipedia</a>
-
-<p> <a target=”_blank” href="https://www.ticarte.com/contenido/que-son-los-lenguajes-de-marcas">Definición Lenguaje de Marcas, www.ticarte.com</a></p>
-  
-<a target=”_blank” href= "https://www.ecured.cu/Sistema_de_Gesti%C3%B3n_de_Informaci%C3%B3n"> Definición Sistema de Gestión de información, www.ecured.cu</a>
-
-<p><a target=”_blank” href= "https://www.aner.com/que-es-un-erp.html#:~:text=Una%20definici%C3%B3n%20sencilla%20de%20qu%C3%A9,el%20inventario%2C%20los%20env%C3%ADos%20y"> Definición ERP, www.aner.com</a></p>
-
-<a target=”_blank” href= "https://nlcorp.extforms.netsuite.com/app/site/crm/externalleadpage.nl/compid.NLCORP/.f?formid=8505&h=AAFdikaI8qTf48BetPN5lE8K_kZOcguAlbSxjdgVf7m_01V7wAI&redirect_count=1&did_javascript_redirect=T&leadsource=GES1392B7620AH&cid=ppc_GES_erp">Oracle Netsuite (ERP) </a>
-
-<p><a target=”_blank” href="https://definicion.de/html/"> Definición HTML, definicion.de</a></p>
-
-<a target=”_blank” href="http://historiademihtml.blogspot.com/p/caracteristicas.html">Características HTML, blog en blogspot.com</a>
-
-<p><a target=”_blank” href="http://www.sidar.org/recur/desdi/mcss/tareas/20011206/slide2-0.html"> Características CSS, www.sidar.org</a></p>
-
-<a target=”_blank” href="https://desarrollowebcarloseduardo.wordpress.com/2017/05/10/caracteristicas-de-xhtml/">Características de XHTML, blog en wordpress.com</a>
-
-<p><a target=”_blank” href="https://conocimientoysistemas.wordpress.com/tag/caracteristicas-xml/">Características de XML, blog de wordpress.com</a></p>
-
-<a target=”_blank” href="https://www.ecured.cu/XML#:~:text=XML(siglas%20en%20ingl%C3%A9s%20de,de%20comunicaci%C3%B3n%20digital%20en%20general">Definición XML, www.ecured.cu </a>
-
-<p><a target=”_blank” href="https://openwebinars.net/blog/que-es-xml-y-para-que-se-usa/"> Características XML, blog en openwebinars.net</a></p>
-
-<a target=”_blank” href="https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo"> Características de MARKDOWN, www.genbeta,com</a>
-
-<p><a target=”_blank” href="https://es.wikipedia.org/wiki/Markdown#:~:text=Markdown%20es%20un%20lenguaje%20de,correo%20electr%C3%B3nico%20usando%20texto%20plano">Definición de MARKDOWN, Wikipedia</a></p>
-
-<a target=”_blank” href="https://www.adictosaltrabajo.com/2009/02/26/teoria-xpath/#:~:text=XPath%20(XML%20Path%20Language)%20es,informaci%C3%B3n%20de%20un%20documento%20XML.&text=elementos%20y%20atributos%2C%20adem%C3%A1%20permite,%C2%ABparentesco%C2%BB%20entre%20esos%20elementos">Definición XPATH, www.adictosaltrabajo.com </a>
-
-<p><a target=”_blank” href="https://es.wikipedia.org/wiki/XPath">Definición XPATH, Wikipedia</a></p>
-
-<a target=”_blank” href="https://www.ticarte.com/contenido/que-es-el-lenguaje-xquery#:~:text=XQuery%20es%20un%20lenguaje%20de,todos%20sus%20operadores%20y%20funciones">Definición del lenguaje XQUERY, www.ticarte.com</a>
-
-<p> 
-<a target=”_blank” href="https://es.wikipedia.org/wiki/XQuery">Definición XQUERY, Wikipedia</a></p>
-
 </html>
-
-
-
-
-Bibliografía: 
-
-principalmente 
-
-https://www.ciudadano2cero.com/como-crear-una-pagina-web-en-html/#Como_crear_una_pagina_web_en_HTML
-
